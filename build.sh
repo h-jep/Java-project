@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 mkdir -p out
-javac -d out src/*.java
+javac -d out $(find Java-source-code/src -name "*.java")
