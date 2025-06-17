@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-java -cp out Main
+java -cp out driver.Driver
