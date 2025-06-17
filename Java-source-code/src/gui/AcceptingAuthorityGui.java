@@ -20,7 +20,7 @@ public class AcceptingAuthorityGui implements ActionListener {
 	JButton b1= new JButton("Assigns");
 	JButton b2= new JButton("Assigns");
 	AcceptingAuthority a=new AcceptingAuthority();
-	AcceptingAuthorityGui()
+	public AcceptingAuthorityGui() 
 	{
 		authorityWindow = new JFrame();
 		ImageIcon img = new ImageIcon("src/Construction.jpg");
